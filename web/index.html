@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        ecommerce
+
+        <nav>
+            <a href="#seccion1">Seccion 1</a>
+            <a href="#seccion2">Seccion 2</a>
+            <a href="#seccion3">Seccion 3</a>
+        </nav>
+        <div>
+            <button onclick="ver('formulario')">Login</button>
+        </div>
+    </header>
+
+    <section id="seccion1">
+        <h1>seccion 1</h1>
+    </section>
+
+    <section id="seccion2">
+        <h1>seccion 2</h1>
+    </section>
+
+    <section id="seccion3">
+        <h1>seccion 3</h1>
+    </section>
+
+    <div id="formulario" class="formulario">
+        <form action="">
+         <span onclick="ocultar('formulario')" class="close" id="close">&times</span>
+            <h2>Login</h2>
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Email</label>
+            <input type="text">
+            <label for="">Contraseña</label>
+            <input type="text">
+            <button onclick="msg()" class="boton">Login</button>
+        </form>
+    </div>
+
+ <script src="app.js"></script>   
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid;
+    padding: 10px;
+    position: fixed ;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+header nav a{
+    text-decoration: none;
+     color: black;
+}
+nav a{
+    padding-left: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid;
+}
+
+button{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+    color: azure;
+    transition: 2s ease;
+}
+
+.formulario{ 
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 20px 20px;
+    width: 50%;
+}
+
+.formulario input{
+    width: 100%;
+}
+
+.boton{
+    background-color: blue;
+    margin-top: 20px;
+}
+
+.boton:hover{
+    background-color: coral;
+}
+
+.close{
+    font-size: 50px;
+    float: right;
+  
+    cursor: pointer;    
+}
+
+.close:hover{
+    color: brown;
+    font-weight: bold;
+}
